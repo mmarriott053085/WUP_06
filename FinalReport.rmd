@@ -71,7 +71,13 @@ barchartGC(~race + cappun,data=mydata, type="percent")
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
 
+  The data tables show the exact percentages of favor and opposition among each racial group. The white race has a favor of 65% and an opposition of 35%. However, the black race has a favor of 43% and an opposition of 57%. The other races have a median favor of 55% and an opposition of 45%.
 
 
 ## Now with More data
