@@ -53,6 +53,7 @@ barchartGC(~race + cappun,data=mydata, type="percent")
 
 The graph suggests, the white race has a higher frequency rate of being in favor of capital punishment, than blacks and other races. It also shows that blacks have a higher frequency of being in being in opposition of capital punishment than whites and other races, who share a similar result in the 'Master' branch.
 
+
 ## Now with LESS data (more variables give less data due to NA's) create the approate graphic displays to answer the question.
 
 
@@ -64,9 +65,13 @@ The graph suggests, the white race has a higher frequency rate of being in favor
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
 
-
-
+  Both tables present data which show the percentage rate each race favors or oppose capital punishment. The white race has a 65% favor rate and a 35% opposition rate. Blacks have a 43% favor rate and a 57% opposition rate. Other races have a median 55% favor rate and a 45% opposition rate.
 
 ## Inferential Results
 
