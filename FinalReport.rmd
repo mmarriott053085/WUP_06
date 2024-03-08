@@ -87,6 +87,13 @@ fisher.test(table1)
 
   We conducted a Chi-square test and did not indicate complete results. Therefore we will run the fisherXY test for a more accurate analysis and results.
 
+
+```{r}
+fisherXY(mydata$race,mydata$cappun)
+```
+
+  The fisherXY test was conducted, and we were able to see the data results were statistically different from one another, as each data set shows different favor  and opposition rates among the different races. 
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
