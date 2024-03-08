@@ -85,7 +85,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-  We conducted a Chi-square test and did not indicate complete results. Therefore we will run the fisherXY test for a more accurate analysis.
+  We conducted a Chi-square test and did not indicate complete results. Therefore we will run the fisherXY test for a more accurate analysis and results.
 
 # Discussion and Conclusion
 
