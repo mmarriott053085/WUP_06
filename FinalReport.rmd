@@ -107,3 +107,5 @@ By running the fisherXY test, we can infer that there is a statistical differenc
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+  In conclusion, the results in both branches are similar, however there is a difference in my master and number 2 branches. After running the fisherXY test on the master branch, there seemed to be more people in each race category appearing as though they held different favor and opposition viewpoints. But when running the fisherXY test in the number 2 branch, there was a significantly less number of people, making it appear as though the only difference in viewpoints were between the white and black races.
